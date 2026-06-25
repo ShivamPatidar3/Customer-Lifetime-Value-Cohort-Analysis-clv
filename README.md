@@ -66,7 +66,7 @@ order_data AS (
     -- Tag every transaction with the customer's cohort and compute revenue
     SELECT t.CustomerID,
            DATE_TRUNC('month', t.InvoiceDate) AS order_month,
-           (t.Quantity * t.UnitPrice)          AS revenue,
+           (t.Quantity * t.Price)          AS revenue,
            c.cohort_month
     FROM clean_transactions t
     JOIN customer_cohorts c ON t.CustomerID = c.CustomerID
