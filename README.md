@@ -13,7 +13,7 @@ The whole stack runs from a raw Kaggle CSV, through a **PostgreSQL** database wi
 ## 📊 What the dashboard covers
 
 - **Total Revenue:** $17.74M across all cohorts
-- **Average Order Value:** $54.60K per transaction
+- **Average Order Value:** $54.60 per transaction
 - **Retention Heatmap:** Month-by-month retention % for every acquisition cohort (2009–2011)
 - **Best cohort:** 2009-12 achieved 897.9% cumulative retention over 25 months
 - **Cumulative CLV Curve:** Shows exactly how long-term revenue grows per cohort — 2009-12 peaks near $0.6M
